@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle type-code-faster",
+        "command": "type-code-faster:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "type-code-faster",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "type-code-faster:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
