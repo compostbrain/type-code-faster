@@ -2,8 +2,20 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle type-code-faster",
-        "command": "type-code-faster:toggle"
+        "label": "Type code faster",
+        "submenu": [
+          {
+            "label": "Track typing speed",
+            "command": "type-code-faster:trackTypingSpeed"
+          },
+          {
+            "type": "sepa rator"
+          },
+          {
+            "label": "Display word count",
+            "command": "type-code-faster:displayWordCount"
+          }
+        ]
       }
     ]
   },
@@ -17,6 +29,10 @@
             {
               "label": "Toggle",
               "command": "type-code-faster:toggle"
+            },
+            {
+              "label": "Display word count",
+              "command": "type-code-faster:displayWordCount"
             }
           ]
         }

@@ -2,13 +2,13 @@
   "name": "type-code-faster",
   "main": "./lib/type-code-faster",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
+  "description": "Learn to type code faster right in Atom",
+  "keywords": [ "typing", "improve"
   ],
   "activationCommands": {
     "atom-workspace": "type-code-faster:toggle"
   },
-  "repository": "https://github.com/atom/type-code-faster",
+  "repository": "https://github.com/compostbrain/type-code-faster",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
