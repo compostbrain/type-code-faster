@@ -6,7 +6,7 @@
   "keywords": [ "typing", "improve"
   ],
   "activationCommands": {
-    "atom-workspace": "type-code-faster:toggle"
+    "atom-workspace": "type-code-faster:practiceSession"
   },
   "repository": "https://github.com/compostbrain/type-code-faster",
   "license": "MIT",

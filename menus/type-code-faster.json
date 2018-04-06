@@ -9,7 +9,7 @@
             "command": "type-code-faster:trackTypingSpeed"
           },
           {
-            "type": "sepa rator"
+            "type": "separator"
           },
           {
             "label": "Display word count",
@@ -27,8 +27,8 @@
           "label": "type-code-faster",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "type-code-faster:toggle"
+              "label": "Practice Session",
+              "command": "type-code-faster:practiceSession"
             },
             {
               "label": "Display word count",
